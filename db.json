@@ -1,16 +1,204 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "create": {     
+   "create":{  
       "SuccessOrFailure":"Y",
-      "accountId":"001083300000620"  
-  }   
+      "accountId":"001083300000620"
+   },
+   "disburse":{  
+      "SuccessOrFailure":"Y",
+      "accountId":"001083400010742",
+      "disbTranId":"S983258",
+      "disbTranDate":"06-01-2018"
+   },
+   "inquiry":{  
+      "Message":{  
+         "getLoanGenResponse":{  
+            "CICrvLoanGenDetailsOutStruct":{  
+               "cICrvCustRec":{  
+                  "custCifId":""
+               },
+               "cILoanDetailsRec":{  
+                  "acOpenDate":"28-11-2016",
+                  "borrCat":"042",
+                  "borrCatCodeDesc":"PRIVATE NON-FINANCIAL CORPORATION",
+                  "commAddr1":"",
+                  "commAddr2":"",
+                  "commCityCode":"",
+                  "commCityDesc":"",
+                  "commCntryCode":"",
+                  "commCntryDesc":"",
+                  "commPinCode":"",
+                  "commStateCode":"",
+                  "commStateDesc":"",
+                  "crFileNo":"",
+                  "custCifId":"C000000010",
+                  "custId":"",
+                  "cylStr":"",
+                  "daysAfterChrgOff":"0",
+                  "daysPastDue":"0",
+                  "defIntApplFlag":"",
+                  "delinRshdlStatus":"N",
+                  "delStr":"",
+                  "disDsaId":"",
+                  "freeCode1":"",
+                  "freeCode10":"",
+                  "freeCode10Desc":"",
+                  "freeCode1Desc":"",
+                  "freeCode2":"999",
+                  "freeCode2Desc":"Others (other than Agricultural & Industry)",
+                  "freeCode3":"",
+                  "freeCode3Desc":"",
+                  "freeCode4":"",
+                  "freeCode4Desc":"",
+                  "freeCode5":"",
+                  "freeCode5Desc":"",
+                  "freeCode6":"",
+                  "freeCode6Desc":"",
+                  "freeCode7":"",
+                  "freeCode7Desc":"",
+                  "freeCode8":"",
+                  "freeCode8Desc":"",
+                  "freeCode9":"",
+                  "freeCode9Desc":"",
+                  "headStr":"",
+                  "indType":"",
+                  "indTypeDesc":"",
+                  "litignFlg":"N",
+                  "loanType":"N",
+                  "lstPrnRedDate":"15-03-2017",
+                  "matDate":"03-04-2017",
+                  "modOfAdv":"",
+                  "modOfAdvDesc":"",
+                  "natOfAdv":"41",
+                  "natOfAdvDesc":"Secured by Assignment of Deposits/Dep Subst.",
+                  "nonStarterFlg":"N",
+                  "nxtPayDate":"",
+                  "occpCode":"",
+                  "occpCodeDesc":"",
+                  "pastDueFlg":"N",
+                  "phNum1":"+63(2)3970344",
+                  "phNum2":"+63(2)3970313",
+                  "poolId":"",
+                  "poolStatus":"",
+                  "purOfAdv":"120",
+                  "purOfAdvDesc":"Others",
+                  "RepaymentAccount":"",
+                  "RepaymentMethod":"N",
+                  "schmCode":"CCRPN",
+                  "secCode":"SECK",
+                  "secCodeDesc":"FINANCIAL AND INSURANCE ACTIVITIES",
+                  "spvId":"",
+                  "srcDsaId":"",
+                  "subSecCode":"64200",
+                  "subSecCodeDesc":"ACTIVITIES OF HOLDING COMPANIES",
+                  "typOfAdv":"204",
+                  "typOfAdvDesc":"Loans & Discount-Commercial Loans",
+                  "upfrontInstalNo":"0",
+                  "shdlBal":{  
+                     "amountValue":"0.0",
+                     "currencyCode":"PHP"
+                  },
+                  "AdvIntColl":{  
+                     "amountValue":"0.0",
+                     "currencyCode":""
+                  },
+                  "loanAmt":{  
+                     "amountValue":"1.06E8",
+                     "currencyCode":"PHP"
+                  },
+                  "payOffAmt":{  
+                     "amountValue":"0.0",
+                     "currencyCode":""
+                  },
+                  "prepayTillDate":{  
+                     "amountValue":"1.06E8",
+                     "currencyCode":"PHP"
+                  },
+                  "dlyIntFact":{  
+                     "amountValue":"0.0",
+                     "currencyCode":"PHP"
+                  },
+                  "upfrontInstalAmt":{  
+                     "amountValue":"0.0",
+                     "currencyCode":"PHP"
+                  },
+                  "prepayYTD":{  
+                     "amountValue":"0.0",
+                     "currencyCode":""
+                  },
+                  "defIntAmt":{  
+                     "amountValue":"0.0",
+                     "currencyCode":"PHP"
+                  },
+                  "intOutstanding":{  
+                     "amountValue":"0.0",
+                     "currencyCode":"PHP"
+                  },
+                  "chrgDue":{  
+                     "amountValue":"0.0",
+                     "currencyCode":"PHP"
+                  },
+                  "intDue":{  
+                     "amountValue":"0.0",
+                     "currencyCode":"PHP"
+                  },
+                  "prnDue":{  
+                     "amountValue":"0.0",
+                     "currencyCode":"PHP"
+                  },
+                  "totDue":{  
+                     "amountValue":"0.0",
+                     "currencyCode":"PHP"
+                  },
+                  "prn":{  
+                     "amountValue":"0.0",
+                     "currencyCode":""
+                  },
+                  "interest":{  
+                     "amountValue":"0.0",
+                     "currencyCode":""
+                  },
+                  "defIntRate":{  
+                     "value":"0.0"
+                  },
+                  "DiscountRate":{  
+                     "value":"0.0"
+                  },
+                  "intRate":{  
+                     "value":"2.6"
+                  }
+               },
+               "status":""
+            },
+            "getLoanGen_CustomData":null
+         }
+      }
+   },
+   "email":{  
+      "data":{  
+         "to":[  
+            "angel.resos@h2software.co"
+         ],
+         "cc":[  
 
+         ],
+         "bcc":[  
+
+         ],
+         "subject":"Test Email",
+         "body":[  
+            "Dear xxx,",
+            "",
+            "Testing for email purposes.",
+            "",
+            "Regards,",
+            "yyy"
+         ],
+         "from":"noreply@robinsonsbank.com.ph",
+         "fromName":"Robinsons Bank"
+      },
+      "flag":"1",
+      "message":"Transaction successful.",
+      "dataCount":1,
+      "tranRefNo":"4f20d0cf-4092-437e-aa76-181fd8381752"
+   }
 }
