@@ -201,81 +201,80 @@
       "dataCount":1,
       "tranRefNo":"4f20d0cf-4092-437e-aa76-181fd8381752"
    },
-
-   "buyers": {
-      "content": [
-        {
-          "companyName": "XXX Trucking",
-          "creditAllocation": "500000",
-          "utilization": "300000",
-          "remaining": "200000"
-        },
-        {
-          "companyName": "YYY Services",
-          "creditAllocation": "500000",
-          "utilization": "200000",
-          "remaining": "300000"
-        }
+   "buyers":{
+      "content":[
+         {
+            "companyName":"XXX Trucking",
+            "creditAllocation":"500000",
+            "utilization":"300000",
+            "remaining":"200000"
+         },
+         {
+            "companyName":"YYY Services",
+            "creditAllocation":"500000",
+            "utilization":"200000",
+            "remaining":"300000"
+         }
       ],
-      "pageable": {
-          "sort": {
-              "sorted": true,
-              "unsorted": false
-          },
-          "offset": 0,
-          "pageSize": 10,
-          "pageNumber": 0,
-          "unpaged": false,
-          "paged": true
+      "pageable":{
+         "sort":{
+            "sorted":true,
+            "unsorted":false
+         },
+         "offset":0,
+         "pageSize":10,
+         "pageNumber":0,
+         "unpaged":false,
+         "paged":true
       },
-      "totalElements": 2,
-      "last": true,
-      "totalPages": 1,
-      "size": 10,
-      "number": 0,
-      "numberOfElements": 2,
-      "first": true,
-      "sort": {
-          "sorted": true,
-          "unsorted": false
+      "totalElements":2,
+      "last":true,
+      "totalPages":1,
+      "size":10,
+      "number":0,
+      "numberOfElements":2,
+      "first":true,
+      "sort":{
+         "sorted":true,
+         "unsorted":false
       }
-  },
-   "suppliers": {
-      "content": [
-        {
-          "companyName": "ABC Trucking",
-          "creditAllocation": "500000",
-          "utilization": "300000",
-          "remaining": "200000"
-        },
-        {
-          "companyName": "XYZ Services",
-          "creditAllocation": "500000",
-          "utilization": "200000",
-          "remaining": "300000"
-        }
+   },
+   "suppliers":{
+      "content":[
+         {
+            "companyName":"ABC Trucking",
+            "creditAllocation":"500000",
+            "utilization":"300000",
+            "remaining":"200000"
+         },
+         {
+            "companyName":"XYZ Services",
+            "creditAllocation":"500000",
+            "utilization":"200000",
+            "remaining":"300000"
+         }
       ],
-      "pageable": {
-          "sort": {
-              "sorted": true,
-              "unsorted": false
-          },
-          "offset": 0,
-          "pageSize": 10,
-          "pageNumber": 0,
-          "unpaged": false,
-          "paged": true
+      "pageable":{
+         "sort":{
+            "sorted":true,
+            "unsorted":false
+         },
+         "offset":0,
+         "pageSize":10,
+         "pageNumber":0,
+         "unpaged":false,
+         "paged":true
       },
-      "totalElements": 2,
-      "last": true,
-      "totalPages": 1,
-      "size": 10,
-      "number": 0,
-      "numberOfElements": 2,
-      "first": true,
-      "sort": {
-          "sorted": true,
-          "unsorted": false
+      "totalElements":2,
+      "last":true,
+      "totalPages":1,
+      "size":10,
+      "number":0,
+      "numberOfElements":2,
+      "first":true,
+      "sort":{
+         "sorted":true,
+         "unsorted":false
       }
-  }
+   }
 }
