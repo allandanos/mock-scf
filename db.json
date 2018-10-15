@@ -1,22 +1,22 @@
 {
-   "create":{  
+   "create":{
       "SuccessOrFailure":"Y",
       "accountId":"001083300000620"
    },
-   "disburse":{  
+   "disburse":{
       "SuccessOrFailure":"Y",
       "accountId":"001083400010742",
       "disbTranId":"S983258",
       "disbTranDate":"06-01-2018"
    },
-   "inquiry":{  
-      "Message":{  
-         "getLoanGenResponse":{  
-            "CICrvLoanGenDetailsOutStruct":{  
-               "cICrvCustRec":{  
+   "inquiry":{
+      "Message":{
+         "getLoanGenResponse":{
+            "CICrvLoanGenDetailsOutStruct":{
+               "cICrvCustRec":{
                   "custCifId":""
                },
-               "cILoanDetailsRec":{  
+               "cILoanDetailsRec":{
                   "acOpenDate":"28-11-2016",
                   "borrCat":"042",
                   "borrCatCodeDesc":"PRIVATE NON-FINANCIAL CORPORATION",
@@ -93,77 +93,77 @@
                   "typOfAdv":"204",
                   "typOfAdvDesc":"Loans & Discount-Commercial Loans",
                   "upfrontInstalNo":"0",
-                  "shdlBal":{  
+                  "shdlBal":{
                      "amountValue":"0.0",
                      "currencyCode":"PHP"
                   },
-                  "AdvIntColl":{  
+                  "AdvIntColl":{
                      "amountValue":"0.0",
                      "currencyCode":""
                   },
-                  "loanAmt":{  
+                  "loanAmt":{
                      "amountValue":"1.06E8",
                      "currencyCode":"PHP"
                   },
-                  "payOffAmt":{  
+                  "payOffAmt":{
                      "amountValue":"0.0",
                      "currencyCode":""
                   },
-                  "prepayTillDate":{  
+                  "prepayTillDate":{
                      "amountValue":"1.06E8",
                      "currencyCode":"PHP"
                   },
-                  "dlyIntFact":{  
+                  "dlyIntFact":{
                      "amountValue":"0.0",
                      "currencyCode":"PHP"
                   },
-                  "upfrontInstalAmt":{  
+                  "upfrontInstalAmt":{
                      "amountValue":"0.0",
                      "currencyCode":"PHP"
                   },
-                  "prepayYTD":{  
+                  "prepayYTD":{
                      "amountValue":"0.0",
                      "currencyCode":""
                   },
-                  "defIntAmt":{  
+                  "defIntAmt":{
                      "amountValue":"0.0",
                      "currencyCode":"PHP"
                   },
-                  "intOutstanding":{  
+                  "intOutstanding":{
                      "amountValue":"0.0",
                      "currencyCode":"PHP"
                   },
-                  "chrgDue":{  
+                  "chrgDue":{
                      "amountValue":"0.0",
                      "currencyCode":"PHP"
                   },
-                  "intDue":{  
+                  "intDue":{
                      "amountValue":"0.0",
                      "currencyCode":"PHP"
                   },
-                  "prnDue":{  
+                  "prnDue":{
                      "amountValue":"0.0",
                      "currencyCode":"PHP"
                   },
-                  "totDue":{  
+                  "totDue":{
                      "amountValue":"0.0",
                      "currencyCode":"PHP"
                   },
-                  "prn":{  
+                  "prn":{
                      "amountValue":"0.0",
                      "currencyCode":""
                   },
-                  "interest":{  
+                  "interest":{
                      "amountValue":"0.0",
                      "currencyCode":""
                   },
-                  "defIntRate":{  
+                  "defIntRate":{
                      "value":"0.0"
                   },
-                  "DiscountRate":{  
+                  "DiscountRate":{
                      "value":"0.0"
                   },
-                  "intRate":{  
+                  "intRate":{
                      "value":"2.6"
                   }
                },
@@ -173,19 +173,19 @@
          }
       }
    },
-   "email":{  
-      "data":{  
-         "to":[  
+   "email":{
+      "data":{
+         "to":[
             "angel.resos@h2software.co"
          ],
-         "cc":[  
+         "cc":[
 
          ],
-         "bcc":[  
+         "bcc":[
 
          ],
          "subject":"Test Email",
-         "body":[  
+         "body":[
             "Dear xxx,",
             "",
             "Testing for email purposes.",
@@ -200,5 +200,83 @@
       "message":"Transaction successful.",
       "dataCount":1,
       "tranRefNo":"4f20d0cf-4092-437e-aa76-181fd8381752"
+   },
+   "credits": {
+     "buyers": {
+        "content": [
+          {
+            "companyName": "XXX Trucking",
+            "creditAllocation": "500000",
+            "utilization": "300000",
+            "remaining": "200000"
+          },
+          {
+            "companyName": "YYY Services",
+            "creditAllocation": "500000",
+            "utilization": "200000",
+            "remaining": "300000"
+          }
+        ],
+        "pageable": {
+            "sort": {
+                "sorted": true,
+                "unsorted": false
+            },
+            "offset": 0,
+            "pageSize": 10,
+            "pageNumber": 0,
+            "unpaged": false,
+            "paged": true
+        },
+        "totalElements": 2,
+        "last": true,
+        "totalPages": 1,
+        "size": 10,
+        "number": 0,
+        "numberOfElements": 2,
+        "first": true,
+        "sort": {
+            "sorted": true,
+            "unsorted": false
+        }
+    },
+     "suppliers": {
+        "content": [
+          {
+            "companyName": "ABC Trucking",
+            "creditAllocation": "500000",
+            "utilization": "300000",
+            "remaining": "200000"
+          },
+          {
+            "companyName": "XYZ Services",
+            "creditAllocation": "500000",
+            "utilization": "200000",
+            "remaining": "300000"
+          }
+        ],
+        "pageable": {
+            "sort": {
+                "sorted": true,
+                "unsorted": false
+            },
+            "offset": 0,
+            "pageSize": 10,
+            "pageNumber": 0,
+            "unpaged": false,
+            "paged": true
+        },
+        "totalElements": 2,
+        "last": true,
+        "totalPages": 1,
+        "size": 10,
+        "number": 0,
+        "numberOfElements": 2,
+        "first": true,
+        "sort": {
+            "sorted": true,
+            "unsorted": false
+        }
+    }
    }
 }
