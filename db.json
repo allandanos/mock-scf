@@ -6,6 +6,13 @@
    "createJwt": {
      "Message": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWNjZXNzT3JGYWlsdXJlIjoiWSIsICJBY2NvdW50SWQiOiIwMDEwODM0MDAwMTA4MjEifQ.WWcbOrKiUL2yrBdMjj2GKPaxWcF5ZTdbXrfmPI0aAOVKIH_Ethd7KMQvfxbAB5y5rtbbMm327-CrkkfAhK-IIb9RzBpJOdK3QPMsF3PBpP90jyKH-aoKRcEdeM4QEZK5JdxTo0dFSCXVBYhxIcge2VQN20Pt1N4Gg8r1dboXBAXs5kweAYvXUVq50dhxzDlX0KxEb34uRvL5wUuoBTG0d_eD5gUXtx-pSNZ4SVfrPD3xHXJIomL_C-R0vFUJUoxvB4ZWBRQ_-7vLw5UuxhcsQv7pi435lCwHvU4ft6AH-QuUvMNiSO17UY5CBR4lMMdOA1V8NFW2gblqCfNHHtgACQ"
    },
+   "createError": {
+      "ErrorCode": "W0205",
+      "ErrorDesc": "~Error - The date must be prior to or same as the BOD date.: Failed to Open Account"
+   },
+   "createErrorJwt":{
+     "Message": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJFcnJvckNvZGUiOiJXMDIwNSIsICJFcnJvckRlc2MiOiJ-RXJyb3IgLSBUaGUgZGF0ZSBtdXN0IGJlIHByaW9yIHRvIG9yIHNhbWUgYXMgdGhlIEJPRCBkYXRlLjogRmFpbGVkIHRvIE9wZW4gQWNjb3VudCJ9.Mrt84cML2RO5WDbDNfUb9yPshac_VO2-pMMOGvOY4aiQrfXCoqPGF-mBdTVPveZuM49IZWcZ9QR_BWRYJZJa9L3JUkYz6Uaiq8PFPinBF39S9wVeSA-a6_448cip-PdEh-x4zFGVhswIbRCg8mBRELxv8LXPTDdooQTsYdeW6H7N0j-O__0XLnl60FAEROMMjaJKw9pZ6JZAqvKw6s07h0ebx5V5a37RU8AAPXGLp6p639C7srApCZTSiBvTN517j65lRsUOJ03RAfuoz4DV44rbKX5gVpByhy-N80csLvpRAseFYye32E46pcu21Qo9ETvPgFVCKDZgTL5VNLEOIw"
+   },
    "disburse":{
       "SuccessOrFailure":"Y",
       "accountId":"001083400010742",
