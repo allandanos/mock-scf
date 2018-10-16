@@ -3,6 +3,9 @@
       "SuccessOrFailure":"Y",
       "accountId":"001083300000620"
    },
+   "createJwt": {
+     "Message": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJTdWNjZXNzT3JGYWlsdXJlIjoiWSIsICJBY2NvdW50SWQiOiIwMDEwODM0MDAwMTA4MjEifQ.WWcbOrKiUL2yrBdMjj2GKPaxWcF5ZTdbXrfmPI0aAOVKIH_Ethd7KMQvfxbAB5y5rtbbMm327-CrkkfAhK-IIb9RzBpJOdK3QPMsF3PBpP90jyKH-aoKRcEdeM4QEZK5JdxTo0dFSCXVBYhxIcge2VQN20Pt1N4Gg8r1dboXBAXs5kweAYvXUVq50dhxzDlX0KxEb34uRvL5wUuoBTG0d_eD5gUXtx-pSNZ4SVfrPD3xHXJIomL_C-R0vFUJUoxvB4ZWBRQ_-7vLw5UuxhcsQv7pi435lCwHvU4ft6AH-QuUvMNiSO17UY5CBR4lMMdOA1V8NFW2gblqCfNHHtgACQ"
+   },
    "disburse":{
       "SuccessOrFailure":"Y",
       "accountId":"001083400010742",
