@@ -1,5 +1,5 @@
 {
   "port": 8083,
-  "host": "139.162.23.173",
+  "hostX": "139.162.23.173",
   "middlewares": ["middleware.js"]
 }

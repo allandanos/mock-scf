@@ -236,13 +236,15 @@
             "companyName":"XXX Trucking",
             "creditAllocation":"500000",
             "utilization":"300000",
-            "remaining":"200000"
+            "remaining":"200000",
+            "pendingDisbursal":"100000"
          },
          {
             "companyName":"YYY Services",
             "creditAllocation":"500000",
             "utilization":"200000",
-            "remaining":"300000"
+            "remaining":"300000",
+            "pendingDisbursal":"100000"
          }
       ],
       "pageable":{
@@ -274,13 +276,15 @@
             "companyName":"ABC Trucking",
             "creditAllocation":"500000",
             "utilization":"300000",
-            "remaining":"200000"
+            "remaining":"200000",
+            "pendingDisbursal":"100000"
          },
          {
             "companyName":"XYZ Services",
             "creditAllocation":"500000",
             "utilization":"200000",
-            "remaining":"300000"
+            "remaining":"300000",
+            "pendingDisbursal":"100000"
          }
       ],
       "pageable":{
